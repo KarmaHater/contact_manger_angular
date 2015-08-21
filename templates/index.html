@@ -6,7 +6,7 @@
 <hr>
 <ul>
   <li ng-repeat="c in contacts">
-    <a href="/#/contacts/{{$index}}" class="first-{{$first}} middle-{{$middle}} last-{{$last}}"><b>{{c.name}}:</b> <em>{{c.number}}</em></a>
+    <a href="/#/contacts/{{$index}}" class="first-{{$first}} middle-{{$middle}} last-{{$last}}"><b>{{c.name | upper }}:</b> <em>{{c.number}}</em></a>
   </li>
 </ul>
 <a href="#/add">Add new contact</a>

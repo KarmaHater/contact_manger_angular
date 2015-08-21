@@ -5,7 +5,7 @@ angular.module('ContactsApp')
       name: $scope.name,
       number: $scope.number
     })
-    $scope.name=""
-    $scope.number=""
+    $scope.name="";
+    $scope.number="";
   }
-}])
+}]);
