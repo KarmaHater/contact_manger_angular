@@ -12,4 +12,8 @@ angular.module('ContactsApp')
     templateUrl: 'templates/contact_form.html',
     controller: 'ContactAddCtrl'
   })
+  .when('/delete/:index', {
+    templateUrl: 'templates/contact_form.html',
+    controller: 'ContactDeleteCtrl'
+  })
 }])
