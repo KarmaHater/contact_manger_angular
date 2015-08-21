@@ -1,0 +1,14 @@
+ul {
+  list-style-type: none;
+}
+.first-true:hover {
+ color: green;
+}
+
+.middle-true:hover {
+  color: pink;
+}
+
+.last-true:hover {
+  color: red;
+}
